@@ -6,7 +6,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 @Entity
 public class Admin {
-//    private Object GenerationType;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer adminId;
